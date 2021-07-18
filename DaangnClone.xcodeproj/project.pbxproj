@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		33294548AAE0F7D915738705 /* Pods_DaangnClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A05C875B31008B3B8C0B40 /* Pods_DaangnClone.framework */; };
+		3D1C267C26A46C3100CF1B77 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C267B26A46C3100CF1B77 /* UIViewController.swift */; };
 		3D74853B26A15ED900869048 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74853A26A15ED900869048 /* FirstViewController.swift */; };
+		3D74853F26A162E100869048 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74853E26A162E100869048 /* Color.swift */; };
+		3D74854126A1681D00869048 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74854026A1681D00869048 /* UIImage.swift */; };
 		3DC0D73426A0538400D0080B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0D73326A0538400D0080B /* AppDelegate.swift */; };
 		3DC0D73626A0538400D0080B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0D73526A0538400D0080B /* SceneDelegate.swift */; };
 		3DC0D73826A0538400D0080B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0D73726A0538400D0080B /* ViewController.swift */; };
-		3DC0D73B26A0538400D0080B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC0D73926A0538400D0080B /* Main.storyboard */; };
 		3DC0D73D26A0538500D0080B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC0D73C26A0538500D0080B /* Assets.xcassets */; };
 		3DC0D74026A0538500D0080B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC0D73E26A0538500D0080B /* LaunchScreen.storyboard */; };
 		3DC0D74B26A0538600D0080B /* DaangnCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0D74A26A0538600D0080B /* DaangnCloneTests.swift */; };
@@ -43,12 +45,14 @@
 		1F0C2BD0F04E618F1708751F /* Pods-DaangnClone-DaangnCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaangnClone-DaangnCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-DaangnClone-DaangnCloneUITests/Pods-DaangnClone-DaangnCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		230EA1E951FA0BD6C09A721F /* Pods-DaangnCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaangnCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-DaangnCloneTests/Pods-DaangnCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		36BD64D5895F5F74A5C9D504 /* Pods-DaangnClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaangnClone.debug.xcconfig"; path = "Target Support Files/Pods-DaangnClone/Pods-DaangnClone.debug.xcconfig"; sourceTree = "<group>"; };
+		3D1C267B26A46C3100CF1B77 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		3D74853A26A15ED900869048 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3D74853E26A162E100869048 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3D74854026A1681D00869048 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		3DC0D73026A0538400D0080B /* DaangnClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaangnClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC0D73326A0538400D0080B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC0D73526A0538400D0080B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3DC0D73726A0538400D0080B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3DC0D73A26A0538400D0080B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DC0D73C26A0538500D0080B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DC0D73F26A0538500D0080B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DC0D74126A0538500D0080B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,6 +115,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3D74853C26A162C100869048 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3D74853D26A162D100869048 /* Extension */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		3D74853D26A162D100869048 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3D74853E26A162E100869048 /* Color.swift */,
+				3D74854026A1681D00869048 /* UIImage.swift */,
+				3D1C267B26A46C3100CF1B77 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		3DC0D72726A0538400D0080B = {
 			isa = PBXGroup;
 			children = (
@@ -136,11 +158,11 @@
 		3DC0D73226A0538400D0080B /* DaangnClone */ = {
 			isa = PBXGroup;
 			children = (
+				3D74853C26A162C100869048 /* Configuration */,
 				3D74853926A15EC400869048 /* View */,
 				3DC0D73326A0538400D0080B /* AppDelegate.swift */,
 				3DC0D73526A0538400D0080B /* SceneDelegate.swift */,
 				3DC0D73726A0538400D0080B /* ViewController.swift */,
-				3DC0D73926A0538400D0080B /* Main.storyboard */,
 				3DC0D73C26A0538500D0080B /* Assets.xcassets */,
 				3DC0D73E26A0538500D0080B /* LaunchScreen.storyboard */,
 				3DC0D74126A0538500D0080B /* Info.plist */,
@@ -289,7 +311,6 @@
 			files = (
 				3DC0D74026A0538500D0080B /* LaunchScreen.storyboard in Resources */,
 				3DC0D73D26A0538500D0080B /* Assets.xcassets in Resources */,
-				3DC0D73B26A0538400D0080B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,9 +438,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1C267C26A46C3100CF1B77 /* UIViewController.swift in Sources */,
 				3DC0D73826A0538400D0080B /* ViewController.swift in Sources */,
 				3DC0D73426A0538400D0080B /* AppDelegate.swift in Sources */,
 				3DC0D73626A0538400D0080B /* SceneDelegate.swift in Sources */,
+				3D74854126A1681D00869048 /* UIImage.swift in Sources */,
+				3D74853F26A162E100869048 /* Color.swift in Sources */,
 				3D74853B26A15ED900869048 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,14 +480,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3DC0D73926A0538400D0080B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DC0D73A26A0538400D0080B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3DC0D73E26A0538500D0080B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -598,16 +614,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GLQQLN3R4U;
 				INFOPLIST_FILE = DaangnClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.DaangnClone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -618,16 +636,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GLQQLN3R4U;
 				INFOPLIST_FILE = DaangnClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.DaangnClone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
