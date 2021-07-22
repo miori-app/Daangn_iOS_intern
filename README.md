@@ -4,3 +4,4 @@
 ## 🛠 라이브러리
 - snapkit
 - then
+- alamofire
